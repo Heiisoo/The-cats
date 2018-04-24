@@ -12,15 +12,15 @@
 
     <video autoplay loop id="myVideo"><source src="img/cat-video.mp4" type="video/mp4"/></video>
 
-    <a href="index1.html"><button id="enter" type="button" name="button">Enter to Heaven</button></a>
+    <a href="index1.html"><button class="pa5 f1" id="enter" type="button" name="button">Enter to Heaven</button></a>
 
     <button id="myBtn" onclick="myFunction()">Pause</button>
 
 
 
     <script>
-      var video = document.getElementById('myVideo')
       var button = document.getElementById('myBtn')
+        , video = document.getElementById('myVideo')
 
       function myFunction () {
         if (video.paused) {
@@ -32,6 +32,7 @@
         }
       }
     </script>
+
   <script src="js/wow.min.js"></script>
   </body>
 </html>
