@@ -9,7 +9,41 @@
 
 #enter {
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 65%;
   background-color: rgb(215, 121, 34);
+  border: 3px solid rgb(251, 251, 251);
+  transition: 1.5s all;
+  text-transform: uppercase;
+  font-family: 'Yatra One', cursive;
+}
+
+#enter:hover {
+  background: #fff;
+  transform:scale(0.9);
+  transition: 1.8s all;
+  border: 5px solid rgb(215, 121, 34);
+}
+
+#myBtn {
+  background-color: #fff;
+  width: 100px;
+  font-family: 'Yatra One', cursive;
+  border:3px solid rgb(215, 121, 34);
+  transition: 1s all;
+  margin: 5px;
+}
+
+#myBtn:hover {
+  background-color: rgb(215, 121, 34) ;
+  border: 3px solid rgb(251, 251, 251);
+  transition: 1s all;
+}
+
+#banniere {
+  width: 36%;
+  height: 135px;
+  position: absolute;
+  bottom: 0;
+  left: 0.7%;
 }

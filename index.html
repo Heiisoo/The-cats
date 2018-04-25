@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Les Chats ||</title>
     <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
   </head>
   <body>
 
     <video autoplay loop id="myVideo"><source src="img/cat-video.mp4" type="video/mp4"/></video>
 
-    <a href="index1.html"><button class="pa5 f1" id="enter" type="button" name="button">Enter to Heaven</button></a>
+    <a href="index1.html"><button class="pa5 f1 br4 wow pulse infinite" id="enter" type="button" name="button">Enter to Heaven</button></a>
 
-    <button id="myBtn" onclick="myFunction()">Pause</button>
+    <button id="myBtn" class="pa2 wow rubberBand infinite" onclick="myFunction()">Pause</button>
+
+    <!-- <img id="banniere" src="img/chat08.jpg" alt="chat fail"> -->
 
 
 
@@ -31,8 +37,20 @@
           button.innerHTML = "Play"
         }
       }
-    </script>
 
-  <script src="js/wow.min.js"></script>
+      new WOW().init()
+
+  //    var btn = document.getElementById('enter');
+  //
+  //     setInterval(function loop() {
+  //     for (btn = 0; btn < 5 ; btn++) {
+  //       console.log('hello');
+  //     $("#enter").removeClass("enterloop");
+  //     $("#enter").addClass("enterloop");
+  //   }
+  // }, 1000);
+
+
+    </script>
   </body>
 </html>
