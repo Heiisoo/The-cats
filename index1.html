@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Les Chats ||</title>
     <link rel="stylesheet" href="css/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Playfair+Display:400,700,900|Slabo+27px" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
     <link rel="stylesheet" href="css/style1.css">
   </head>
@@ -19,20 +19,23 @@
 
 		</div>
 
+    <!-- Debut du header -->
     <header>
       <nav>
-        <ul>
+        <ul class="nav-header">
           <li><a href="#">Accueil</a></li>
           <li><a href="#">Les chats</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
 
-      <h1>Présentation des chats</h1>
+      <h1 class="title-header">Présentation des <span class="typer" id="main" data-words=" Chatons, Tchoupi chats, Doudou"  data-delay="150" data-deleteDelay="800">Chats</span></h1>
     </header>
-
+    <!-- Fin du header -->
 
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/typer.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
   </body>

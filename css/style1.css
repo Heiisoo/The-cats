@@ -130,4 +130,17 @@
 
 body {
   background-color: #333;
+  font-family: 'Slabo 27px', serif;
+}
+
+.title-header {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 110px;
+  position: absolute;
+  top: 45%;
+  left: 8%;
+  width: 900px;
 }
