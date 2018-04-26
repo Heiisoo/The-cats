@@ -19,7 +19,7 @@
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #fc0000;
+  border-top-color: #9C309E;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
   z-index: 1001;
@@ -48,7 +48,7 @@
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #dd7e00;
+  border-top-color: #4EBFBB;
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite;
 }
@@ -80,7 +80,7 @@
   top: 0;
   width: 51%;
   height: 100%;
-  background: #000;
+  background: #222;
   z-index: 1000;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -124,18 +124,26 @@
 
 /*-----Fin loader----*/
 
+
+/*------- General -----*/
 body {
   background-color: #fff;
   font-family: 'Quicksand', sans-serif;
 }
 
+h2 {
+  font-family: 'Playfair Display', serif;
+}
 section{
   height: 100vh;
 }
 
 .second {
   background-color: #222;
+  height: 2000px;
 }
+
+/*------ Header ----*/
 
 .title-header {
   color: #9C309E;
@@ -192,6 +200,9 @@ section{
 .description{
   height: 600px;
 }
+
+
+/*------------Description ---*/
 .img-description img {
   float: right;
   position: relative;
@@ -217,10 +228,69 @@ section{
 .text-description p:last-child {
   color: #9C309E;
 }
+
+/*----- Start box "les chats" ----*/
+
 .chats{
   width: 80%;
   height: 400px;
   background: #4EBFBB;
   margin: 0 auto 0 20px;
   padding: 30px;
+}
+
+.title-chats {
+  width: 290px;
+}
+
+.title-chats h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #9C309E;
+  margin: 0;
+}
+
+.title-chats p {
+  margin-left: 10px;
+  font-size: 20px;
+  text-align: right;
+}
+
+
+/*----Modal-----*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(224, 224, 224);
+  background-color: rgba(224, 224, 224, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width:80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
