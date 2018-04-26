@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background: red;
+  height: 100vh;
+}
+.nav{
+  height: 200px;
+  width: 100%;
+  background: black;
+}
+
+
+
+
+.content{
+  background: green;
+}
+.firstBlock{
+  display: inline-block;
+  width: 100%;
+  border: 1px solid black;
+}
+.firstBlockText{
+  width: 600px;
+  margin-left: 50px;
+}
+.firstBlock p {
+  margin-top: 10px;
+}
+.firstBlockImage{
+  float: right;
+  position: relative;
+  bottom: 250px;
+  right: 150px;
+}
+.image{
+  background: blue;
+  height: 100px;
+  width: 100px;
+}
+.secondBlock{
+  background: pink;
+  height: 400px;
+  width: 75%;
+  margin-left: 100px;
+}

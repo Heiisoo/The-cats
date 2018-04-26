@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Les Chats ||</title>
     <link rel="stylesheet" href="css/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Playfair+Display:400,700,900|Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Playfair+Display:400,700,900|Quicksand:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
     <link rel="stylesheet" href="css/style1.css">
   </head>
@@ -20,21 +20,61 @@
 		</div>
 
     <!-- Debut du header -->
-    <header>
-      <nav>
-        <ul class="nav-header">
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">Les chats</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+    <section class="first">
 
-      <h1 class="title-header">Présentation des <span class="typer" id="main" data-words=" Chatons, Tchoupi chats, Doudou"  data-delay="150" data-deleteDelay="800">Chats</span></h1>
-    </header>
+      <header>
+      <div class="header-top">
+
+        <div class="navbar">
+          <nav>
+            <ul class="nav-header">
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#">Description</a></li>
+              <li><a href="#">Les chats</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="logo">
+          <img src="img/chatLogo.png" alt="logo chats">
+        </div>
+
+      </div>
+
+
+        <h1 class="title-header">Présentation des <span class="typer" id="main" data-colors="#4EBFBB" data-words=" Chatons, Tchoupi, Doudous, Chats"  data-delay="150" data-deleteDelay="800">Chats</span></h1>
+      </header>
+    </section>
+
     <!-- Fin du header -->
 
+    <section class="second">
+
+      <div class="description">
+
+        <div class="text-description">
+          <p>Le chat est un mammifère de la famille de félidés.</br> Il pèse en moyenne 2,5 à 4,5 kg et mesure entre 66 et 76 cm, avec la queue. Ses pattes sont pourvues de griffes rétractiles. Elles ont à leur base des coussinets constitués d'une membrane élastique qui leur permet de se déplacer sans faire de bruit.
+Le pelage du chat est composé de poils de longueur variable selon les races.</p>
+          <p>Vers 6 ou 7 mois, le chat est déjà capable de se reproduire. Cette maturité sexuelle intervient entre 7 et 10 mois chez la chatte. Après une gestation de 64 jours environ, la chatte donne naissance à 4 ou 5 chatons en moyenne. Le chaton naît aveugle et sourd, et pèse environ 100 g.</p>
+        </div>
+
+        <div class="img-description">
+          <img src="img/beau-chat-yeux-bleus.jpg" alt="chat yeux bleu">
+        </div>
+
+      </div>
+
+      <div class="chats">
+
+      </div>
+
+
+
+    </section>
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/typer.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
